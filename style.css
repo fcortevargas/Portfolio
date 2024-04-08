@@ -95,9 +95,9 @@ a:hover {
 
 .menu-links {
   position: absolute;
-  top: 100%;
+  top: 95%;
   right: 0;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.5);
   border-radius: 2rem;
   width: fit-content;
   max-height: 0;
@@ -109,7 +109,7 @@ a:hover {
   display: block;
   padding: 10px;
   text-align: center;
-  font-size: 1.5rem;
+  font-size: 1.25rem;
   color: black;
   text-decoration: none;
   transition: all 0.3 ease-in-out;
@@ -272,6 +272,7 @@ section {
   gap: 2rem;
   margin-bottom: 2rem;
   margin-top: 2rem;
+  flex-wrap: wrap;
 }
 
 .about-details-container {
@@ -302,6 +303,10 @@ section {
   border: rgb(53, 53, 53) 0.1rem solid;
   border-color: rgb(163, 163, 163);
   text-align: center;
+}
+
+.text-container p {
+  margin-bottom: 20px;
 }
 
 .section-container {
@@ -358,6 +363,7 @@ article .icon {
 
 #projects {
   position: relative;
+  height: auto;
 }
 
 .color-container {
@@ -367,8 +373,8 @@ article .icon {
 
 .project-img {
   border-radius: 2rem;
-  width: 90%;
-  height: 90%;
+  width: 50%;
+  height: 50%;
 }
 
 .project-title {
